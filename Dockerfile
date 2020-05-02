@@ -19,6 +19,7 @@ RUN apt-get update \
         iputils-ping \
         python \
         python-pip \
+        gettext-base \
     && rm -rf /var/lib/apt/lists/* \
     && pip install boto3==1.4.4
 
